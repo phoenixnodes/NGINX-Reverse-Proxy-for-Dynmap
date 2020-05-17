@@ -49,4 +49,10 @@ Run this command to download the proxy script and start it, follow the on-screen
 wget https://raw.githubusercontent.com/TehloWasTaken/side-scripts/master/proxy.sh && bash proxy.sh
 ```
 
-### 
+### Step 6: Restart NGINX
+
+Run this command to restart NGINX:
+
+```
+sudo service nginx restart
+```
