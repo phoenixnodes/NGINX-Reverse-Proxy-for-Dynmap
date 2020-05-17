@@ -6,7 +6,7 @@
 - A domain.
 
 
-### Step 1: Point your domain to your VPS IP
+### Step 1: Point your domain to your VPS IP address
 
 These steps may vary for each domain registrar, this tutorial will explain how to point your domain to your VPS IP via CloudFlare.
 
