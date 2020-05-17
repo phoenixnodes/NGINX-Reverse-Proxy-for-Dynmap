@@ -3,6 +3,7 @@
 ### Requirements
 - A Minecraft server with the Dynmap plugin installed and running.
 - A VPS with Ubuntu 18.04.
+- A domain.
 
 
 ### Step 1: Point your domain to your VPS IP
