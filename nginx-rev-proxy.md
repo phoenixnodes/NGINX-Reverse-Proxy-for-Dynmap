@@ -10,8 +10,14 @@
 
 These steps may vary for each domain registrar, this tutorial will explain how to point your domain to your VPS IP via CloudFlare.
 
-
-
+- Navigate to CloudFlare.com and login
+- Choose the domain you want to have your map on
+- Select "DNS" from the menu at the top of the screen
+- Click "Add Record"
+- Set "Type" to "A"
+- Set "Name" to whatever you want your subdomain to be (Eg: map)
+- Set "IPv4 address" to the IP Address of your VPS
+- Click "Save"
 
 ### Step 2: Install NGINX
 
