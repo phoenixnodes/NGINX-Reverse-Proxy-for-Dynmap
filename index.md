@@ -4,7 +4,17 @@
 - A Minecraft server with the Dynmap plugin installed and running.
 - A VPS with Ubuntu 18.04.
 
-### Step 1: Install Certbot
+
+### Step 1: Install NGINX
+
+Run these commands to update your system and install NGINX:
+
+```
+sudo apt update
+sudo apt-get install nginx
+```
+
+### Step 2: Add Certbot PPA
 
 You'll need to add the Certbot PPA to your list of repositories. To do so, run the following commands on the command line on the machine:
 
@@ -16,33 +26,10 @@ sudo add-apt-repository ppa:certbot/certbot
 sudo apt-get update
 ```
 
+### Step 3: Install Certbot
+
+Run this command on the command line on the machine to install Certbot:
+
 ```
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+sudo apt-get install certbot python3-certbot-nginx
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/phoenixnodes/docs/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
