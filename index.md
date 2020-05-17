@@ -5,6 +5,13 @@
 - A VPS with Ubuntu 18.04.
 
 
+### Step 1: Point your domain to your VPS IP
+
+These steps may vary for each domain registrar, this tutorial will explain how to point your domain to your VPS IP via CloudFlare.
+
+
+
+
 ### Step 1: Install NGINX
 
 Run these commands to update your system and install NGINX:
