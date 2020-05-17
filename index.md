@@ -11,7 +11,7 @@ Run these commands to update your system and install NGINX:
 
 ```
 sudo apt update
-sudo apt-get install nginx
+sudo apt-get -y install nginx
 ```
 
 ### Step 2: Add Certbot PPA
@@ -19,7 +19,6 @@ sudo apt-get install nginx
 You'll need to add the Certbot PPA to your list of repositories. To do so, run the following commands on the command line on the machine:
 
 ```
-sudo apt-get update
 sudo apt-get install software-properties-common
 sudo add-apt-repository universe
 sudo add-apt-repository ppa:certbot/certbot
@@ -31,5 +30,13 @@ sudo apt-get update
 Run this command on the command line on the machine to install Certbot:
 
 ```
-sudo apt-get install certbot python3-certbot-nginx
+sudo apt-get -y install certbot python3-certbot-nginx
+```
+
+### Step 4: Download proxy script
+
+Run this command to download the proxy script and start it:
+
+```
+wget https://raw.githubusercontent.com/TehloWasTaken/side-scripts/master/proxy.sh && bash proxy.sh
 ```
