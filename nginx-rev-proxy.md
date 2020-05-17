@@ -62,3 +62,7 @@ Run this command to restart NGINX:
 ```
 sudo service nginx restart
 ```
+
+### Step 7: Completion
+
+To verify that everything is working, visit your map subdomain (Eg: map.yoursite.com). You should be able to view your Dynmap without using your server's IP and Dynmap port.
