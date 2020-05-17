@@ -1,11 +1,22 @@
-## Welcome to GitHub Pages
+## Install NGINX Reverse Proxy on Ubuntu 18.04 for Dynmap
 
-You can use the [editor on GitHub](https://github.com/phoenixnodes/docs/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### Requirements
+- A Minecraft server with the Dynmap plugin installed and running.
+- A VPS with Ubuntu 18.04.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Step 1: Install Certbot
 
-### Markdown
+You'll need to add the Certbot PPA to your list of repositories. To do so, run the following commands on the command line on the machine:
 
+```
+sudo apt-get update
+sudo apt-get install software-properties-common
+sudo add-apt-repository universe
+sudo add-apt-repository ppa:certbot/certbot
+sudo apt-get update
+```
+
+```
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
